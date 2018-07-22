@@ -1,0 +1,16 @@
+PODS:
+  - WZViews (0.1.0)
+
+DEPENDENCIES:
+  - WZViews (from `../`)
+
+EXTERNAL SOURCES:
+  WZViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZViews: c3a9f74742064c5bae3f172bcd592dfc864ed1b1
+
+PODFILE CHECKSUM: f16e473bb724c45721959a76a613d2b64385b3c6
+
+COCOAPODS: 1.5.3

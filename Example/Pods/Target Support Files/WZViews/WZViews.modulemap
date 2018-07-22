@@ -1,0 +1,6 @@
+framework module WZViews {
+  umbrella header "WZViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
