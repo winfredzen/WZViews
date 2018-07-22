@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1703DB3DCFD5D5A39EDEA970731DB792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3016D2562EE3098EDCFE852A370D1F86 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F68F5912E8B1AE546B624BAF6BA1F5 /* ReplaceMe.swift */; };
 		334B65E51D05BD7102D74F5B2123B27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		63516A39748BC390B37F7119EFCBACAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		966C82020077CA2DB320435EBFE74984 /* WZViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9710AD990949D3C9F229EA8381A838C /* WZViews-dummy.m */; };
@@ -16,6 +15,7 @@
 		B0FCF4532BE180A87CAE61D7ADCFA0CF /* Pods-WZViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2061C603DBD8F543229187015023E922 /* Pods-WZViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B73D7521E85456A618C0849154987883 /* Pods-WZViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A6A533E7AC26340C3DD6654627028F /* Pods-WZViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA9565630CD8DF2463E67A47423BB6D9 /* Pods-WZViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D84ECD2B910C6BA5B6DBF492824DDE3D /* Pods-WZViews_Tests-dummy.m */; };
+		D79B0AA621045F3500600186 /* NoScrollCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79B0AA521045F3500600186 /* NoScrollCollectionView.swift */; };
 		EF38BF9B80588D6584F7BC6B5014DB33 /* Pods-WZViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4FFDEF2F34DD48075E0CF6918A4400 /* Pods-WZViews_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,17 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01816634D8796908C2ACAF19F3093FF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		063EA81579B6784E93690350CD322211 /* WZViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZViews.framework; path = WZViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01816634D8796908C2ACAF19F3093FF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		063EA81579B6784E93690350CD322211 /* WZViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E6B898AE5F475347360EAFDFFC549 /* WZViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZViews-prefix.pch"; sourceTree = "<group>"; };
 		1E0910BA10B0DB007CD967AF2B2407C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2061C603DBD8F543229187015023E922 /* Pods-WZViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZViews_Example-umbrella.h"; sourceTree = "<group>"; };
 		226BBD908D994818434D65C20D256ACB /* WZViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZViews.xcconfig; sourceTree = "<group>"; };
 		2BD0127C8808B4750817D0B31D091DD6 /* Pods-WZViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		352C43F7CB98959173B2FC80400BB4E0 /* Pods-WZViews_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZViews_Example-resources.sh"; sourceTree = "<group>"; };
-		3C2D353DBF2FF07E4ECBBE41453EAF30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C2D353DBF2FF07E4ECBBE41453EAF30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		48FE2430937E115AEB20C8B1DC26503E /* Pods-WZViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5547A1256EDEA5A910493B6A39787523 /* Pods_WZViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZViews_Tests.framework; path = "Pods-WZViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5547A1256EDEA5A910493B6A39787523 /* Pods_WZViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AD7521AA804A7DCE909569BD6500F1 /* Pods-WZViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5936EFDB905268E5D768493F79ABB2E0 /* Pods-WZViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59E260194B5491A72126158DE6A7B820 /* WZViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZViews.modulemap; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		76C0364E9E6BC51BF4F6617F37F031E4 /* Pods-WZViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		793C4476751D49C24535D9A378A1EECE /* Pods-WZViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZViews_Tests-resources.sh"; sourceTree = "<group>"; };
 		7A09F93DA5A53D2AAB9061E4A344E71E /* Pods-WZViews_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZViews_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94570E96CDA687E1D518EE74B84A8B41 /* Pods-WZViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D634D4E47F81B8F8601395521994519 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E58669C53657B1AFCFA290DF21419C9 /* Pods-WZViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZViews_Tests.modulemap"; sourceTree = "<group>"; };
@@ -65,12 +65,12 @@
 		BAA0F77D5D36A4E676E57B6265C53229 /* Pods-WZViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF800BCE750FF0F27EC6AD36C6B6210A /* WZViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZViews-umbrella.h"; sourceTree = "<group>"; };
 		C2BA1D10FB2CA17567998E88D20C5973 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C35FEA44A3338ABE3254364F31F0CB1B /* WZViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WZViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC4477BBFBA123E7580DCCD3A44A298E /* Pods_WZViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZViews_Example.framework; path = "Pods-WZViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35FEA44A3338ABE3254364F31F0CB1B /* WZViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WZViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC4477BBFBA123E7580DCCD3A44A298E /* Pods_WZViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79B0AA521045F3500600186 /* NoScrollCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoScrollCollectionView.swift; path = WZViews/Classes/NoScrollCollectionView.swift; sourceTree = "<group>"; };
 		D84ECD2B910C6BA5B6DBF492824DDE3D /* Pods-WZViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZViews_Tests-dummy.m"; sourceTree = "<group>"; };
 		D8A6A533E7AC26340C3DD6654627028F /* Pods-WZViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZViews_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DA4FFDEF2F34DD48075E0CF6918A4400 /* Pods-WZViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZViews_Example-dummy.m"; sourceTree = "<group>"; };
-		E1F68F5912E8B1AE546B624BAF6BA1F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WZViews/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F1523D93E213313B5817C75989242A85 /* Pods-WZViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZViews_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,9 +133,9 @@
 		3D8516901B7C84E26233200756710F06 /* WZViews */ = {
 			isa = PBXGroup;
 			children = (
-				E1F68F5912E8B1AE546B624BAF6BA1F5 /* ReplaceMe.swift */,
 				BC74CF84F30E15EF247CC15056E5D72F /* Pod */,
 				E4D592979A042393CCCACE326C556831 /* Support Files */,
+				D79B0AA521045F3500600186 /* NoScrollCollectionView.swift */,
 			);
 			name = WZViews;
 			path = ../..;
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					B505B249610F093B1ACA4E75B79B4585 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79B0AA621045F3500600186 /* NoScrollCollectionView.swift in Sources */,
 				EF38BF9B80588D6584F7BC6B5014DB33 /* Pods-WZViews_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3016D2562EE3098EDCFE852A370D1F86 /* ReplaceMe.swift in Sources */,
 				966C82020077CA2DB320435EBFE74984 /* WZViews-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +392,7 @@
 			baseConfigurationReference = 6C7DF2E8C5455D7C3BA8C23B298B874F /* Pods-WZViews_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -410,6 +416,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -489,6 +496,7 @@
 			baseConfigurationReference = 5936EFDB905268E5D768493F79ABB2E0 /* Pods-WZViews_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -513,6 +521,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

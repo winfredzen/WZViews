@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F8040BC5086A6FEDB64346 /* WZViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WZViews.podspec; path = ../WZViews.podspec; sourceTree = "<group>"; };
+		01F8040BC5086A6FEDB64346 /* WZViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZViews.podspec; path = ../WZViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		06767EC23DDBF814FB3E4761 /* Pods_WZViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		297DC21AE777C14AF39990BE /* Pods-WZViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZViews_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZViews_Tests/Pods-WZViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		311AD8DFBB84925127EB7F07 /* Pods_WZViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACE51AFB9204008FA782 /* WZViews_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZViews_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		733E2BAF7C4048AE8C0B346E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7BB857AA23EE6D6F4AB8F2E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		733E2BAF7C4048AE8C0B346E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7BB857AA23EE6D6F4AB8F2E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A9C16E869813469DFA420B9 /* Pods-WZViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZViews_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZViews_Tests/Pods-WZViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
